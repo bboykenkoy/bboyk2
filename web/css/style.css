@@ -1,0 +1,574 @@
+/* CSS Document */
+body
+{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    min-width: 999px;
+    background: #FFFFFF url(../images/nen-1.png) repeat;
+    font-family: comic sans ms, Helvetica, sans-serif;
+}
+
+#wrapper
+{
+    padding: 0px;
+    margin: 0px;
+    width: 999px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+
+
+
+
+@font-face
+{
+    font-family: "hpca";
+    src: url(font/HCAFI.TTF);
+}
+
+
+
+
+
+
+
+.nentren
+{
+    background: url(../images/nen-head.png) repeat-x top left;
+}
+
+
+.nenduoi1
+{
+    background: url(../images/bottom.png) repeat-x bottom left;
+    height: 56px;
+}
+.nenduoi2
+{
+    background: url(../images/nenduoi2.png) repeat-x bottom left;
+}
+
+.fl
+{
+    float: left;
+}
+
+.cl
+{
+    clear: both;
+}
+
+.center
+{
+    float: left;
+    width: 557px;
+    padding: 0px;
+    margin: 0px;
+}
+
+table.reference
+{
+    border: 1px solid #999999;
+    border-collapse: collapse;
+    color: #000000;
+    text-align: left;
+}
+
+table.reference th
+{
+    background-color: #ECE3BE;
+    border: 1px solid #999999;
+    padding: 3px;
+    vertical-align: top;
+}
+
+table.reference td
+{
+    border: 1px solid #999999;
+    padding: 3px;
+    vertical-align: top;
+}
+
+
+
+
+
+.vienphai
+{
+    background: url(../images/nenphai.png) repeat-y right top;
+}
+
+.vientrai
+{
+    background: url(../images/nenphai.png) repeat-y left top;
+}
+.left
+{
+    float: left;
+    width: 220px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.right
+{
+    float: left;
+    width: 220px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.cen1
+{
+    background: url(../images/slidecent.png) no-repeat center top;
+    height: 320px;
+    padding: 34px 35px 0px 46px;
+}
+
+
+.timkiem
+{
+    margin: auto;
+    padding: 0 0 0 18px;
+}
+
+.box1
+{
+    background: url(../images/tim-1.png) no-repeat top;
+    float: left;
+    border: 0px;
+    width: 111px;
+    height: 43px;
+    padding: 12px 0px 0px 15px;
+}
+.box2
+{
+    background: url(../images/tim-2.png) no-repeat top;
+    float: left;
+    border: 0px;
+    width: 120px;
+}
+
+
+
+.tim3
+{
+    background: url(../images/tim-3.png) no-repeat top;
+    float: left;
+    width: 40px;
+    height: 43px;
+    display: block;
+    border: none;
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.tim3:hover
+{
+    background: url(../images/tim-3-hover.png) no-repeat top;
+}
+
+.cachdong-menu
+{
+    padding: 2px 0 2px 0;
+    color: #4a472f;
+    font-size: 12px;
+    text-align:left;
+}
+
+a.text-menu
+{
+    font-size: 12px;
+    color: #4a472f;
+    text-decoration: none;
+}
+
+
+a.text-menu:hover
+{
+    text-decoration: underline;
+}
+
+.can-menu
+{
+    padding: 2px 4px 2px 4px;
+    font-size: 12px;
+    text-align:center;
+}
+
+.canmenutrai
+{
+    padding: 2px 0 2px 15px;
+    font-size: 12px;
+}
+
+.dcm
+{
+    background: url(../images/menu2.png) repeat-y left;
+}
+.menu2
+{
+    background: url(../images/menu1.png) no-repeat top left;
+}
+.menu3
+{
+    background: url(../images/menu3.png) no-repeat bottom left;
+    min-height: 351px;
+}
+
+
+
+
+a.men-cap1
+{
+    color: #0033ff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.men-cap1:hover
+{
+    color: #FF3333;
+}
+
+
+
+a.men-cap2
+{
+    color: #4a472f;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+a.men-cap2:hover
+{
+    text-decoration: underline;
+}
+.title-man-cap2
+{
+    color: #4a472f;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.tieudesp
+{
+    color: #3b3925;
+    font-style: italic;
+    font-family: "hpca";
+    font-size: 22px;
+}
+
+.tieudetit
+{
+    color: #3b3925;
+    background: url(../images/new-icon.png) no-repeat left top;
+    height: 44px;
+    padding: 4px 0 0 53px;
+    font-style: italic;
+    font-family: "hpca";
+    font-size: 22px;
+}
+
+a.nutmenu
+{
+    text-decoration: none;
+}
+
+
+a.ad
+{
+    color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.thongtin
+{
+    color: #000000;
+    padding: 5px 0 0 0;
+    font-style: italic;
+    font-size: 12px;
+    width: 140px;
+    height: 100px;
+}
+
+.thongtin1
+{
+    color: #000000;
+    padding: 5px 0 0 0;
+    font-style: italic;
+    font-size: 12px;
+    width: 200px;
+}
+.duong2492 img
+{
+    width: 140px;
+    height: 120px;
+}
+
+a.thongtin
+{
+    color: #000000;
+    padding: 5px 0 0 0;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 12px;
+}
+
+a.thongtin:hover
+{
+    text-decoration: underline;
+}
+
+.duongdan
+{
+    color: #3C2211;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+a.duongdan
+{
+    color: #3C2211;
+    text-decoration: none;
+}
+
+a.duongdan:hover
+{
+    text-decoration: underline;
+}
+
+.font
+{
+    font-family: "hpca";
+}
+
+a.a3
+{
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a.a3:hover
+{
+    text-decoration: underline;
+}
+
+a.a4
+{
+    text-decoration: none;
+    color: #000000;
+    font-size: 11px;
+    text-align: right;
+}
+
+a.a4:hover
+{
+    text-decoration: underline;
+}
+
+
+a.gh
+{
+    text-decoration: none;
+    color: #4a472f;
+    font-size: 12px;
+    text-align: right;
+}
+
+a.gh:hover
+{
+    text-decoration: underline;
+}
+
+
+
+
+
+/*botren1*/
+
+
+.bt1
+{
+    background: url(../images/nen.png) repeat;
+}
+.bt2
+{
+    background: url(../images/giua1.png) repeat-x top;
+}
+.bt3
+{
+    background: url(../images/duoi.png) repeat-x bottom;
+}
+.bt4
+{
+    background: url(../images/phai.png) repeat-y right;
+}
+.bt5
+{
+    background: url(../images/trai.png) repeat-y left;
+}
+.bt6
+{
+    background: url(../images/trentrai1.png) no-repeat top left;
+}
+.bt7
+{
+    background: url(../images/trenphai1.png) no-repeat top right;
+}
+.bt8
+{
+    background: url(../images/duoi-phai.png) no-repeat bottom right;
+}
+
+.bt9
+{
+    background: url(../images/duoi-trai.png) no-repeat bottom left;
+    min-height: 180px;
+}
+
+/*botren1*/
+
+
+
+.dmsp
+{
+    background: url(../images/nenmenu-1.png) no-repeat center top;
+    padding: 9px 0 9px 43px;
+    margin: 2px;
+}
+
+
+.ttinview
+{
+    padding: 10px 15px 10px 15px;
+}
+
+.ttinview img
+{
+    max-width: 500px;
+}
+
+
+.paging
+{
+    font-size: 90%;
+    padding: 20px 0;
+}
+.paging a
+{
+    background: none repeat scroll 0 0 gray;
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    margin-right: 5px;
+    padding: 5px 10px;
+    text-decoration: none !important;
+}
+.paging a:visit
+{
+    color: Blue;
+}
+.paging a:hover
+{
+    background: none repeat scroll 0 0 green;
+}
+
+#advertopForm, .newsform
+{
+    float: left;
+    text-align: justify;
+    width: 100%;
+    color: #666;
+}
+
+#comments
+{
+    background: none repeat scroll 0 0 #F5DEB3;
+    border: 0px solid #DFE3E6;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px 30px 0;
+    width: 435px;
+}
+#comments
+{
+    float: left;
+    margin: 10px;
+}
+#comments h3
+{
+    color: #474747;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0 0 10px;
+}
+
+#comments p
+{
+    color: #333;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+    padding: 0 0 10px;
+}
+
+
+
+#comments .comment_form
+{
+    position: relative;
+}
+#comments .comment_form ul.single_author
+{
+    width: 100px;
+}
+#comments #comment_form
+{
+    width: 680px;
+    float: left;
+}
+#comments .input
+{
+    width: 420px;
+    padding: 4px 5px;
+    background: #fff;
+    border: 1px solid #E1E5E4;
+    color: #5f6565;
+    font-family: 'Lucida Grande' ,Tahoma,Verdana,sans-serif;
+    display: block;
+    margin: 5px 0;
+}
+#comments #submit_comment
+{
+    width: 12.0em;
+    height: 3.0em;
+    float: right;
+    margin-top: 10px;
+}
+.txtTitle
+{
+   
+    text-align: center;
+}
+.duong2492{ text-decoration: none;}
